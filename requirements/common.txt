@@ -1,7 +1,8 @@
 Flask>=1.1.2
 requests>=2.23.0
 python-dotenv==0.13.0
-cryptography==3.3.2
+cryptography==42.0.2
 isodate>=0.5
 cachetools>=4.2.1
 okta-jwt-verifier>=0.2.3
+aiohttp>=3.9.2 # not directly required, pinned by Snyk to avoid a vulnerability
