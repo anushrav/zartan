@@ -5,3 +5,5 @@ cryptography==3.3.2
 isodate>=0.5
 cachetools>=4.2.1
 okta-jwt-verifier>=0.2.3
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
